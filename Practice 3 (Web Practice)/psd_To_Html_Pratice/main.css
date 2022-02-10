@@ -1,0 +1,279 @@
+/* Google Font -Roboto- | -Poppins- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.colored-text {
+    color: #ff6058;
+    font-weight: 800;
+}
+
+p {
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.home-section h2 {
+    font-size: 62px;
+    font-weight: 700;
+}
+
+
+/* Header Start */
+
+.main-header {
+    height: 80px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ff6058;
+}
+
+.btn-col .btn {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Header End */
+
+
+/* Hero (Featured) Section Start  */
+
+#hero-section {
+    height: 100vh;
+    max-height: 950px;
+    background-image: url(assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#hero-section:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 20;
+    color: #ffffff;
+    max-width: 960px;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+.hero-content h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    padding: 0 50px;
+}
+
+.hero-buttons .btn,
+.learn-more-btn {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 45px;
+    margin: 0 10px;
+}
+
+
+/* Hero (Featured) Section End  */
+
+
+/* Stats Section Start  */
+
+.stats-section {
+    height: 200px;
+}
+
+.stat-col {
+    height: 100%;
+    position: relative;
+}
+
+.stat-col span {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stat-col span span {
+    display: inline-block;
+}
+
+.stat-col span.number {
+    font-size: 60px;
+    font-weight: 800;
+    color: #ff6058;
+}
+
+
+/* Correction L -> l */
+
+.stat-col span.Label {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+/* Stats Section End  */
+
+
+/* About Section Start  */
+
+.about-section {
+    padding: 100px 0;
+}
+
+.about-images div {
+    padding: 10px;
+}
+
+.about-images div:nth-child(2) {
+    margin-top: 3rem;
+}
+
+.about-images div:nth-child(3) {
+    margin-top: -3rem;
+}
+
+.about-images div img {
+    max-width: 100%;
+}
+
+.about-text {
+    padding: 30px 0 0 40px;
+}
+
+.about-text .col-1 span {
+    color: #73a4aa;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1;
+}
+
+
+/* About Section End  */
+
+
+/* WhyUs Section End  */
+
+.whyus-section {
+    padding: 80px 0;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(to bottom, #f7f7f7 60%, #ffffff 40%);
+}
+
+.feature-box {
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    position: relative;
+}
+
+.feature-box h4 {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+.feature-box#fbx-1 {
+    background-image: url(assets/img/why-us-1.jpg);
+}
+
+.feature-box#fbx-2 {
+    background-image: url(assets/img/why-us-2.jpg);
+}
+
+.feature-box#fbx-3 {
+    background-image: url(assets/img/why-us-3.jpg);
+}
+
+
+/* WhyUs Section End  */
+
+
+/* Services Section Start  */
+
+.services-section {
+    padding: 50px 0;
+}
+
+.service-box {
+    background-color: #f9f9f9;
+}
+
+.service-box h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-box p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* Services Section End  */
