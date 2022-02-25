@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Div</title>
+</head>
+<style>
+    .mainDiv1 {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        margin-left: -195px;
+        margin-top: -155px;
+        z-index: 2147483647;
+        visibility: visible;
+    }
+
+    .mainDiv2 {
+        width: 390px;
+        /* border: 0; */
+        background-color: #FFFFFF;
+        border: 1px solid #B7B7B7;
+    }
+
+    .innerDiv1 {
+        margin: 25px 25px 20px 25px;
+        overflow: hidden;
+    }
+
+    .logoImg1 {
+        border: 0;
+        width: 118px;
+        height: 24px;
+        float: left;
+        clear: left;
+    }
+
+    .closeImgBtn {
+        border: 0px;
+        padding: 0px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 17px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #closeBtn {
+        border: 0px;
+        padding: 0px;
+        position: relative;
+    }
+
+    .innerDiv2 {
+        margin: 0 25px 16px 25px;
+        font-family: 'Segoe UI', 'Segoe UI';
+        font-size: 15px;
+        color: #2f2f2f;
+        line-height: 18px;
+        clear: both;
+    }
+
+    .innerDiv3 {
+        margin: 0 25px 16px 25px;
+    }
+
+    .input1 {
+        border-style: none;
+        background-color: rgb(0, 115, 198);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        height: 36px;
+        width: 99px;
+        cursor: pointer;
+    }
+
+    .input2 {
+        border-style: none;
+        background-color: rgb(0, 115, 198);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        height: 36px;
+        width: 99px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="mainDiv1">
+        <div class="mainDiv2">
+            <div class="innerDiv1">
+                <img class="logoImg1" src="https://www.microsoft.com/library/svy/azure/ms-logo-short.png"
+                    alt="Microsoft Logo" title="Microsoft Logo">
+                <button class="closeImgBtn" type="button">
+                    <img src="https://www.microsoft.com/library/svy/azure/icon_close.png" alt="Close Survey Invite"
+                        title="Close Survey Invite" id="closeBtn">
+                </button>
+            </div>
+            <div class="innerDiv2">
+                Microsoft is conducting an online survey to understand your opinions about the Microsoft Azure website.
+                If you choose to participate, the online survey will be presented to you when you leave the
+                website.<br><br>Would you like to participate?
+            </div>
+            <div class="innerDiv3">
+                <input class="input1" type="button" alt="Yes" title="Yes" value=" Yes "> &nbsp;
+                <input class="input2" type="button" alt="No" title="No" value=" No ">
+            </div>
+            <div style="margin: 0 25px 25px;">
+                <a href="https://go.microsoft.com/fwlink/?LinkId=521839" target="_blank"
+                    style="font-family: &quot;Segoe UI&quot;, Arial, sans-serif; font-size: 13px; color: rgb(0, 104, 189); text-decoration: none;"
+                    onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'"
+                    alt="Privacy Statement" title="Privacy Statement" id="csPriv">Privacy Statement
+                </a>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>

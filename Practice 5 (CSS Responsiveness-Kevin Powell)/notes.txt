@@ -1,0 +1,8 @@
+*) Difference between em & rem :-
+
+em takes font size from parent element, but em takes padding from the same element's font size.
+rem = root em, rem takes font size from root or html, rem takes margin from the font size of root.
+
+______________________________________________________________________________________________________
+
+
